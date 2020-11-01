@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>INDIA TIMES || SPORTS</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width-device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+    <!--google fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/020b510f8a.js" crossorigin="anonymous"></script>
+    <style>
+        .main-container-right {
+            padding: 30px 10px;
+        }
+
+        .main-container-right article {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            padding: 50px 0px;
+            border-bottom: 1px solid #7ac64d
+        }
+
+        .main-container-right h4 {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 18px;
+            align-self: center;
+
+        }
+
+        .main-container-right article div {
+            margin-right: 20px;
+        }
+
+        .main-container-right>h2 {
+            padding: 15px 0 15px 30px;
+            font-weight: 700;
+
+        }
+
+        .main-container-right article p {
+            font-size: 15px;
+            font-weight: 500;
+
+        }
+
+        .main-container-right article h3 {
+            font-size: 30px;
+        }
+
+        .main-container-right article img {
+            margin-left: 30px;
+            height: 200px;
+            width: 400px;
+        }
+
+
+        /* .main-container-right img {
+            width: 100%;
+            height: 100%;
+            align-self: center;
+        } */
+
+
+        @media(max-width: 500px) {
+            .main-container-right article {
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: 1fr 1fr;
+            }
+
+            .main-container-right article h4 {
+                grid-row: 1/2;
+                grid-column: 1/2;
+                align-self: flex-start;
+            }
+
+            .main-container-right article h3 {
+                font-size: 20px;
+            }
+
+            .main-container-right article img {
+
+                grid-row: 1/2;
+                grid-column: 1/2;
+            }
+
+            .main-container-right article img {
+                margin-left: 30px;
+                margin-right: 30px;
+                height: 200px;
+                width: 200px;
+            }
+
+
+            .main-container-right article div {
+                grid-row: 1/3;
+                grid-column: 2/3;
+            }
+        }
+
+        @media(max-width: 600px) {
+            .main-container-right article {
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: 1fr 1fr;
+            }
+
+            .main-container-right article h4 {
+                grid-row: 1/2;
+                grid-column: 1/2;
+                align-self: flex-start;
+            }
+
+            .main-container-right article h3 {
+                font-size: 20px;
+            }
+
+            .main-container-right article img {
+
+                grid-row: 1/2;
+                grid-column: 1/2;
+            }
+
+            .main-container-right article img {
+                margin-left: 20px;
+                margin-right: 30px;
+                height: 200px;
+                width: 200px;
+            }
+
+
+            .main-container-right article div {
+                grid-row: 1/3;
+                grid-column: 2/3;
+            }
+        }
+
+        @media(max-width: 701px) {
+            .main-container-right article {
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: 1fr 1fr;
+            }
+
+            .main-container-right article h4 {
+                grid-row: 1/2;
+                grid-column: 1/2;
+                align-self: flex-start;
+            }
+
+            .main-container-right article h3 {
+                font-size: 20px;
+            }
+
+            .main-container-right article img {
+
+                grid-row: 1/2;
+                grid-column: 1/2;
+            }
+
+            .main-container-right article img {
+                margin-left: 20px;
+                margin-right: 30px;
+                height: 100px;
+                width: 200px;
+            }
+
+
+            .main-container-right article div {
+                grid-row: 1/1;
+                grid-column: 2/3;
+            }
+        }
+
+        @media(max-width: 1000px) {
+            .main-container-right article img {
+                margin-left: 20px;
+                margin-right: 30px;
+                height: 150px;
+                width: 300px;
+            }
+
+            .main-container-right article h3 {
+                font-size: 25px;
+            }
+        }
+
+        @media(max-width: 1041px) {
+            .main-container-right article h3 {
+                font-size: 25px;
+            }
+        }
+
+        @media(min-width:1001px) {
+            .main-container-right article img {
+                margin-left: 20px;
+                margin-right: 30px;
+                height: 200px;
+                width: 400px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--header-->
+
+    <header>
+        <div class="navigation-container">
+            <div class="top-head">
+                <div class="web-name">
+                    <h1>INDIA TIMES</h1>
+                </div>
+                <div class="ham-btn">
+                    <span>
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </div>
+                <div class="times-btn">
+                    <span>
+                        <i class="fas fa-times"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- nav bar-->
+
+            <div class="nav-bar" id="nav-bar">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="national.html">National</a></li>
+                        <li><a href="international.html">International</a></li>
+                        <li><a href="business.html">Business</a></li>
+                        <li><a href="sports.html">Sports</a></li>
+                        <li><a href="entertainment.html">Entertainment</a></li>
+                        <li id="hide"><a href="login.html" target="blank">Login</a></li>
+                        <li id="see"><a href="signup.html" target="blank"></a>SignUp</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div style="margin-right: 10px;" class="login">
+                <a href="login.html" target="_blank">
+                    <button>Login</button>
+                </a>
+            </div>
+            <div class="login">
+                <a href="signup.html" target="_blank">
+                    <button>SignUp</button>
+                </a>
+            </div>
+
+
+
+            <!-- social icons-->
+
+            <div class="social-icons">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <section class="banner">
+        <div class="banner-main-content">
+            <h2>TRENDING NOW!!!</h2>
+            <h3>IPL 2020 | There are lots of flaws in our game: Shreyas Iyer</h3>
+            <button>
+                <a href="#">Know More</a>
+            </button>
+
+            <div class="current-news-head">
+                <h3>
+                    Indian Super League | ATK Mohun Bagan vs Kerala Blasters in November 20 opener <span>SURESH
+                        PRABHU</span>
+                </h3>
+                <h3>
+                    Manpreet and Reid want to return to full momentum gradually <span>PTI</span>
+                </h3>
+                <h3>
+                    Leander Paes: ‘Andre Agassi is my all-time favourite opponent’ <span>Gautam Sunder</span>
+                </h3>
+                <h3>
+                    Premier League | ‘Arsenal, United clashes no longer title deciders’<span>ANDREW</span>
+                </h3>
+                <h3>
+                    Cheptegei sets 10,000m world mark <span>REUTERS</span>
+                </h3>
+            </div>
+        </div>
+        <div class="banner-sub-content">
+            <div class="hot-topic">
+                <img src="sportsfirstfig.jpg" alt="">
+
+                <div class="hot-topic-content">
+                    <h2>Indian Premier League 2020: CSK vs KXIP | Dhoni wins toss, invites Punjab to bat</h2>
+                    <h3>PTI</h3>
+                    <p>Chennai Super Kings made three changes while Kings XI Punjab made two.!!</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="hot-topic">
+                <img src="sportssecondfig.jpg" alt="">
+
+                <div class="hot-topic-content">
+                    <h2>Aleem Dar breaks Rudi Koertzen’s record of most ODIs as on-field umpire</h2>
+                    <h3>ABHISHEK SHARMA</h3>
+                    <p>The record for officiating in the most international matches — 387 — is also in the name of Aleem
+                        Dar.!!</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+
+            <div class="hot-topic">
+                <img src="sportsthirdfig.jpg" alt="">
+
+                <div class="hot-topic-content">
+                    <h2>Diogo Jota strikes again as Liverpool go top</h2>
+                    <h3>REUTERS</h3>
+                    <p>Liverpool ground out a 2-1 victory over West Ham United at Anfield to take the lead at the top of
+                        the Premier League and equal a club record of 63 home league matches unbeaten.!!</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="hot-topic">
+                <img src="sportsfourthfig.jpg" alt="">
+
+                <div class="hot-topic-content">
+                    <h2>‘Strokes of genius’ | A documentary on the Federer-Nadal rivalry</h2>
+                    <h3>SPECIAL CORRESPONDENT</h3>
+                    <p>Discovery+ app is offering a 90-minute documentary Strokes of Genius on the rivalry between Roger
+                        Federer and Rafael Nadal.!!</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="main-container-right">
+        <h2 style="
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: 700;
+            font-size: 50px;
+            padding: 5px 5px;
+            text-transform: uppercase;">
+            Latest Stories
+        </h2>
+        <hr>
+        <article>
+            <img src="sportslatestfirst.jpg">
+            <div>
+                <h3>Indian Premier League | Dhoni confirms he has not played his last game for CSK</h3>
+                <p>Mahendra Singh Dhoni will be back in the IPL next year. The World Cup-winning captain confirmed it
+                    himself at the toss of Chennai Super Kings’ final game of the season here on Sunday.
+                </p>
+                <a href="#">Read More<span>>></span></a>
+            </div>
+
+        </article>
+
+        <article>
+            <img src="sportslatestsecond.jpg">
+            <div>
+                <h3>Jio named title sponsor of Women’s T20 Challenge</h3>
+                <p>Indian players will be taking the field for the first time since the T20 World Cup in March.
+                    The BCCI on Sunday announced Jio as the title sponsor of the Women’s T20 Challenge, to be held in
+                    Sharjah from November 4 to 9.
+                </p>
+                <a href="#">Read More<span>>></span></a>
+            </div>
+
+        </article>
+
+        <article>
+            <img src="sportslatestthird.jpg">
+            <div>
+                <h3>Walker strike does it for Manchester City</h3>
+                <p>Easy day at the office for Real; entire Lazio squad under quarantine
+                    Manchester City moved two points off the top of the Premier League as Kyle Walker’s long-range
+                    strike was enough to see off winless Sheffield United 1-0 at Bramall Lane.
+                </p>
+                <a href="#">Read More<span>>></span></a>
+            </div>
+
+        </article>
+
+        <article>
+            <img src="sportslatestfourth.jpg">
+            <div>
+                <h3>Indian hockey team is shaping up well for Tokyo Olympics: Kothajit</h3>
+                <p>We have seen a lot of improvement over the last two months, says the Manipuri defender
+                    The Indian men’s hockey team has resumed training at just the right time after a break forced by
+                    COVID-19 and will be in a strong position for next year’s Tokyo Olympics, believes senior defender
+                    Kothajit Singh.
+                </p>
+                <a href="#">Read More<span>>></span></a>
+            </div>
+
+        </article>
+
+        <article>
+            <img src="sportslatestfifth.jpg">
+            <div>
+                <h3>Raikkonen, Giovinazzi to continue at Alfa Romeo</h3>
+                <p>Kimi Raikkonen and Antonio Giovinazzi will remain with Alfa Romeo next season, the Formula One team
+                    said on Friday.
+                </p>
+                <a href="#">Read More<span>>></span></a>
+            </div>
+
+        </article>
+
+        <article>
+            <img src="sportslatestsix.jpg">
+            <div>
+                <h3>Wimbledon plans return in 2021, with or without fans</h3>
+                <p>The tournament, cancelled this year for the first time since 1945, is scheduled to run next year from
+                    June 28-July 11.
+                    The Wimbledon tennis tournament is planning its comeback in 2021.
+                </p>
+                <a href="#">Read More<span>>></span></a>
+            </div>
+
+        </article>
+
+
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>INDIA TIMES</h2>
+                <p>THE SITE: About Us | Terms of Use | Privacy Policy | Contacts | Archive | Print | Subscription |
+                    ePaper | Digital | Subscription | Rss Feeds | Sitemap</p>
+            </div>
+            <div class="footer-right">
+                <h2>NEWSLETTER</h2>
+                <p>GROUP SITES: The Hindu | இந்து தமிழ் திசை | Business Line | BL on Campus | Sportstar | Frontline |
+                    INDIA TIMES
+                    Centre | RoofandFloor | STEP | Young World Club | Publications | eBooks | Images | Classifieds</p>
+
+                <div>
+                    <input type="text" placeholder="EMAIL ADDRESS"> <i class="fas fa-envelope"></i>
+                </div>
+            </div>
+        </div>
+
+        <p>Copyright &copy; 2025 All rights reserved | Akash Verma</p>
+    </footer>
+
+
+
+
+    <script src="script.js" async defer></script>
+</body>
+
+</html>

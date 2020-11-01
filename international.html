@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>INDIA TIMES || INTERNATIONAL</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width-device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+    <!--google fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/020b510f8a.js" crossorigin="anonymous"></script>
+    <style>
+        .main-container-right {
+            padding: 30px 10px;
+        }
+
+        .main-container-right article {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            padding: 50px 0px;
+            border-bottom: 1px solid #7ac64d
+        }
+
+        .main-container-right h4 {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 18px;
+            align-self: center;
+
+        }
+
+        .main-container-right article div {
+            margin-right: 20px;
+        }
+
+        .main-container-right>h2 {
+            padding: 15px 0 15px 30px;
+            font-weight: 700;
+
+        }
+
+        .main-container-right article p {
+            font-size: 15px;
+            font-weight: 500;
+
+        }
+
+        .main-container-right article h3 {
+            font-size: 30px;
+        }
+
+        .main-container-right article img {
+            margin-left: 30px;
+            height: 200px;
+            width: 400px;
+        }
+
+
+        /* .main-container-right img {
+            width: 100%;
+            height: 100%;
+            align-self: center;
+        } */
+
+
+        @media(max-width: 500px) {
+            .main-container-right article {
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: 1fr 1fr;
+            }
+
+            .main-container-right article h4 {
+                grid-row: 1/2;
+                grid-column: 1/2;
+                align-self: flex-start;
+            }
+
+            .main-container-right article h3 {
+                font-size: 20px;
+            }
+
+            .main-container-right article img {
+
+                grid-row: 1/2;
+                grid-column: 1/2;
+            }
+
+            .main-container-right article img {
+                margin-left: 30px;
+                margin-right: 30px;
+                height: 200px;
+                width: 200px;
+            }
+
+
+            .main-container-right article div {
+                grid-row: 1/3;
+                grid-column: 2/3;
+            }
+        }
+
+        @media(max-width: 600px) {
+            .main-container-right article {
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: 1fr 1fr;
+            }
+
+            .main-container-right article h4 {
+                grid-row: 1/2;
+                grid-column: 1/2;
+                align-self: flex-start;
+            }
+
+            .main-container-right article h3 {
+                font-size: 20px;
+            }
+
+            .main-container-right article img {
+
+                grid-row: 1/2;
+                grid-column: 1/2;
+            }
+
+            .main-container-right article img {
+                margin-left: 20px;
+                margin-right: 30px;
+                height: 200px;
+                width: 200px;
+            }
+
+
+            .main-container-right article div {
+                grid-row: 1/3;
+                grid-column: 2/3;
+            }
+        }
+
+        @media(max-width: 701px) {
+            .main-container-right article {
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: 1fr 1fr;
+            }
+
+            .main-container-right article h4 {
+                grid-row: 1/2;
+                grid-column: 1/2;
+                align-self: flex-start;
+            }
+
+            .main-container-right article h3 {
+                font-size: 20px;
+            }
+
+            .main-container-right article img {
+
+                grid-row: 1/2;
+                grid-column: 1/2;
+            }
+
+            .main-container-right article img {
+                margin-left: 20px;
+                margin-right: 30px;
+                height: 100px;
+                width: 200px;
+            }
+
+
+            .main-container-right article div {
+                grid-row: 1/1;
+                grid-column: 2/3;
+            }
+        }
+
+        @media(max-width: 1000px) {
+            .main-container-right article img {
+                margin-left: 20px;
+                margin-right: 30px;
+                height: 150px;
+                width: 300px;
+            }
+
+            .main-container-right article h3 {
+                font-size: 25px;
+            }
+        }
+
+        @media(max-width: 1041px) {
+            .main-container-right article h3 {
+                font-size: 25px;
+            }
+        }
+
+        @media(min-width:1001px) {
+            .main-container-right article img {
+                margin-left: 20px;
+                margin-right: 30px;
+                height: 200px;
+                width: 400px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--header-->
+
+    <header>
+        <div class="navigation-container">
+            <div class="top-head">
+                <div class="web-name">
+                    <h1>INDIA TIMES</h1>
+                </div>
+                <div class="ham-btn">
+                    <span>
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </div>
+                <div class="times-btn">
+                    <span>
+                        <i class="fas fa-times"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- nav bar-->
+
+            <div class="nav-bar" id="nav-bar">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="national.html">National</a></li>
+                        <li><a href="international.html">International</a></li>
+                        <li><a href="business.html">Business</a></li>
+                        <li><a href="sports.html">Sports</a></li>
+                        <li><a href="entertainment.html">Entertainment</a></li>
+                        <li id="hide"><a href="login.html" target="blank">Login</a></li>
+                        <li id="see"><a href="signup.html" target="blank"></a>SignUp</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div style="margin-right: 10px;" class="login">
+                <a href="login.html" target="_blank">
+                    <button>Login</button>
+                </a>
+            </div>
+            <div class="login">
+                <a href="signup.html" target="_blank">
+                    <button>SignUp</button>
+                </a>
+            </div>
+
+
+            <!-- social icons-->
+
+            <div class="social-icons">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+    <section class="banner">
+        <div class="banner-main-content">
+            <h2>TRENDING TODAY!!!</h2>
+            <h3>U.K. government mulling lockdown for England</h3>
+            <button>
+                <a href="#">Know More</a>
+            </button>
+
+            <div class="current-news-head">
+                <h3>
+                    At least 37 killed in Aegean Sea earthquake that hit Turkey and Greek island <span>ANDREW</span>
+                </h3>
+                <h3>
+                    The best from the science journals: Lessons from octopus and algae <span>Aswathi Pacha</span>
+                </h3>
+                <h3>
+                    Rohit’s medical report says he could be in danger of injuring himself again, says Ravi Shastri
+                    <span>PTI</span>
+                </h3>
+                <h3>
+                    The mystery of the centaurs <span>AP</span>
+                </h3>
+                <h3>
+                    Poem on Coronavirus: Scare way the pandemic <span>MITCHELL</span>
+                </h3>
+            </div>
+        </div>
+        <div class="banner-sub-content">
+            <div class="hot-topic">
+                <img src="interfirstfig.jpg" alt="">
+
+                <div class="hot-topic-content">
+                    <h2>Coronavirus | Boris Johnson locks down England as U.K. COVID-19 cases pass 1 million</h2>
+                    <h3>REUTERS</h3>
+                    <p>Mr. Johnson said that the one-month lockdown across England would kick in at a minute past
+                        midnight on Thursday morning and last until December 2</p>
+                    <a href="internationalFirstFig.html">Read More</a>
+                </div>
+            </div>
+
+            <div class="hot-topic">
+                <img src="interthirdfig.jpg" alt="">
+
+                <div class="hot-topic-content">
+                    <h2>U.S. sees record 90 million early votes as Trump, Biden make late push</h2>
+                    <h3>REUTERS</h3>
+                    <p>The high number of early voters, about 65% of the total turnout in 2016, reflects intense
+                        interest in the contest, with three days of campaigning left.
+                    </p>
+                    <a href="internationalSecondFig.html">Read More</a>
+                </div>
+            </div>
+
+            <div class="hot-topic">
+                <img src="intersecondfig.jpg" alt="">
+
+                <div class="hot-topic-content">
+                    <h2>Super typhoon batters Philippines, 1 million in shelters</h2>
+                    <h3>ANDREW</h3>
+                    <p>Typhoon Goni hit the island province of Catanduanes at dawn with sustained winds equivalent to a
+                        Category 5 hurricane!!</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="hot-topic">
+                <img src="interfourthfig.jpg" alt="">
+
+                <div class="hot-topic-content">
+                    <h2>70-year-old pulled alive as Turkey earthquake death toll hits 53</h2>
+                    <h3>ANDREW</h3>
+                    <p>AFAD said more than 5,700 personnel had been activated for rescue work and hundreds of others for
+                        food distribution, emergency help and building damage control.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="main-container-right">
+        <h2 style="
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: 700;
+            font-size: 50px;
+            padding: 5px 5px;
+            text-transform: uppercase;">
+            Latest Stories
+        </h2>
+        <hr>
+        <article>
+            <img src="interlatestfirst.jpg">
+            <div>
+                <h3>Orthodox priest seriously hurt in shooting in France’s Lyon, suspect held</h3>
+                <p>The priest, who has Greek nationality, was closing his church when the attack happened and is now in
+                    a serious condition. An attacker armed with a sawn-off shotgun on Saturday wounded a Greek Orthodox
+                    priest in a shooting in the French city of Lyon, a police source said. Nikolaos Kakavelaki, 52, was
+                    closing his church mid-afternoon when he was attacked and is now in a serious condition in hospital,
+                    said the source, who asked not to be named. The attacker fled the scene but later Lyon's public
+                    prosecutor Nicolas Jacquet announced that a suspect had been arrested.
+                </p>
+                <a href="internationalLatestStoriesFirst.html">Read More<span>>></span></a>
+            </div>
+
+        </article>
+
+        <article>
+            <img src="interlatestsecond.jpg">
+            <div>
+                <h3>Coronavirus | 700 km traffic jam as people in Paris flee ahead of lockdown</h3>
+                <p>People in Paris fleeing for the countryside jammed the roads ahead of France’s lockdown to slow the
+                    spread of resurgent coronavirus infections, and there was only a sprinkling of people hurrying along
+                    city sidewalks Friday as the nationwide restrictions went into effect.
+                </p>
+                <a href="internationalLatestStoriesSecond.html">Read More<span>>></span></a>
+            </div>
+
+        </article>
+
+        <article>
+            <img src="interlatestthird.jpg">
+            <div>
+                <h3>Saudi man crashes car into gates of Mecca’s Grand Mosque</h3>
+                <p>A Saudi man in a speeding car crashed into the outer gates of Mecca’s Grand Mosque late Friday night,
+                    the country’s state-run news agency reported.
+
+                    The crash happened around 10:30 pm and saw the man’s car ram through a barrier and keep driving
+                    until it hit the gate on the Grand Mosque’s southern side, the Saudi Press Agency said
+                </p>
+                <a href="#">Read More<span>>></span></a>
+            </div>
+
+        </article>
+
+        <article>
+            <img src="interlatestfourth.jpg">
+            <div>
+                <h3>The importance of being Indian in America</h3>
+                <p>While many Indian Americans are campaigning vigorously for Democratic nominee Joe Biden, several
+                    others are making strenuous efforts to keep Donald Trump in the White House. Sriram Lakshman reports
+                    on the issues and aspirations of a politically charged community
+                </p>
+                <a href="#">Read More<span>>></span></a>
+            </div>
+
+        </article>
+
+        <article>
+            <img src="interlatestfifth.jpg">
+            <div>
+                <h3>Donald Trump tests negative for COVID-19 as he resumes campaigning in Florida</h3>
+                <p>President Donald Trump has tested negative for COVID-19 on consecutive days and is not infectious to
+                    others, the White House physician said on October 12, as Mr. Trump headed to Florida for his first
+                    campaign rally since he disclosed he contracted the virus.
+                </p>
+                <a href="#">Read More<span>>></span></a>
+            </div>
+
+        </article>
+
+
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>INDIA TIMES</h2>
+                <p>THE SITE: About Us | Terms of Use | Privacy Policy | Contacts | Archive | Print | Subscription |
+                    ePaper | Digital | Subscription | Rss Feeds | Sitemap</p>
+            </div>
+            <div class="footer-right">
+                <h2>NEWSLETTER</h2>
+                <p>GROUP SITES: The Hindu | இந்து தமிழ் திசை | Business Line | BL on Campus | Sportstar | Frontline |
+                    INDIA TIMES
+                    Centre | RoofandFloor | STEP | Young World Club | Publications | eBooks | Images | Classifieds</p>
+
+                <div>
+                    <input type="text" placeholder="EMAIL ADDRESS"> <i class="fas fa-envelope"></i>
+                </div>
+            </div>
+        </div>
+
+        <p>Copyright &copy; 2025 All rights reserved | Akash Verma</p>
+    </footer>
+
+
+
+
+    <script src="script.js" async defer></script>
+</body>
+
+</html>
